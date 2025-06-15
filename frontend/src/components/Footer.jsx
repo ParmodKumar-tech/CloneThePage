@@ -38,9 +38,10 @@ export default function Footer() {
           <p className="text-sm text-gray-600">Get real time job updates on our App</p>
           <div className="flex justify-center mt-2 gap-4 items-center">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Googl_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
-              alt="Play Store"e
-              className="h-8"
+            
+              src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg"
+              alt="Play Store"
+              className="w-26 h-26"
             />
             <img
               src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://play.google.com/store"
