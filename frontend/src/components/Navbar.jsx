@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className='flex gap-2 p-1'>
         
       <div 
-      className="w-auto mr-5 md:hidden lg:hidden flex flex-col  gap-1 p-2 cursor-pointer rounded" 
+      className="w-auto mr-5 lg:hidden flex flex-col  gap-1 p-2 cursor-pointer rounded" 
       onClick={handleMenuItems}
       >
         <div className="w-6 h-0.5 bg-black"></div>
@@ -31,7 +31,7 @@ export default function Navbar() {
         </div>
         <h1 className="text-xl md:text-2xl  font-semibold text-gray-900">apna</h1>
         
-        <nav className={menuItems? "z-20 w-screen left-0 bg-white flex flex-col gap-5 items-start absolute h-auto  border top-20 p-5":"hidden lg:flex flex-wrap items-center mx-2 space-x-6  font-semibold"}>
+        <nav className={menuItems? "z-20 w-screen left-0 bg-white flex flex-col gap-5 items-start absolute h-auto  border top-20 p-5":"hidden lg:flex gap-y-4 flex-wrap items-center mx-2 space-x-2 font-semibold"}>
                 <div className="relative">
                   <button  className="flex items-center cursor-pointer space-x-1 text-gray-700 hover:text-gray-900">
                     <span>Jobs</span>
