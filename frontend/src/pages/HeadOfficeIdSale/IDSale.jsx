@@ -9,7 +9,7 @@ import SharedWithFriends from '../../components/SharedWithFriends'
 
 export default function IDSale() {
   return (
-    <div className='bg-[#e3cff5] w-full flex flex-wrap md:justify-center p-4'>
+    <div className='bg-[#e3cff5] w-screen flex flex-wrap md:justify-center p-4'>
       <div className='w-[100%] lg:w-[70%] p-2'>
       <Hero/>
       <AboutThisInterview/>
